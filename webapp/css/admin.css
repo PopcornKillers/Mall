@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    background-color: #a7d2bc;
+}
+
+nav{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #a7d2bc;
+    font-weight: bold;
+    position: relative;
+
+}
+nav p{margin: 20px; font-size: 20px}
+#tx{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 10px solid black;
+    overflow: hidden;
+    margin: 10px;
+}
+#tx img{
+    width: 100%;
+    height: 100%;
+}
+
+#tc{
+    position: absolute;
+    bottom: 40px;
+    cursor: pointer;
+}
+span{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background-color: #a7d2bc;
+    flex-shrink: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+article{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+
+.main{
+    width: 300%;
+    height: 100%;
+    position: relative;
+    transition: 0.5s;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#explain{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    background-color: antiquewhite;
+    font-size: 12px;
+}
+.page form p input {
+    border: 1px solid black;
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+
+}
+
+
+.page table{
+    width: 600px;
+    border-collapse: collapse;
+}
+.page table tr th{
+    background-color: #a7d2bc;
+    padding: 5px;
+}
+.page table tr td{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+}
+.page table tr td img{
+    width: 20px;
+    height: 20px;
+}
+.page table tr td input{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    background: none;
+    font-size: 12px;
+}
+.page table tr td input:focus{
+    outline: 2px solid black;
+}
+.page table tr td #update,#id:focus{
+    outline: none;
+}
+
+#update{
+    width: 30px;
+    /*background-color: #a7d2bc;*/
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#delete{
+    width: 30px;
+    height: 20px;
+    /*background-color: #a7d2bc;*/
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: none;
+}
+td a{
+    text-decoration: none;
+    color: black;
+}
+table tr td{
+    font-size: 12px;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#goodimg{
+    width: 250px;
+    height: 500px;
+    box-shadow: 5px 5px 10px gray;
+}
+#goodimg img{
+    width: 100%;
+    height: 100%;
+}
+form{
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 40px;
+}
+form input{
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: inherit;
+}
+#name{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#num{
+    border: 2px solid black;
+    width: 40px;
+    height: 25px;
+    align-self: flex-start;
+}
+#price{
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+    height: 25px;
+    line-height: 25px;
+}
+#add{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    background: none;
+    align-self: flex-end;
+}
+form p{
+    text-indent: 2em;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+form span{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+span input{
+    margin: 0 180px;
+}
